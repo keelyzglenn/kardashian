@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type= "text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>WHICH KARDASHIAN SHOULD YOU DATE?</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="jumbotron">Kardashian Dating Quiz</h1>
+
+      <p>Enter your info to know right now!</p>
+      <form id="quiz">
+      <div class="row">
+
+        <div class="col-md-4">
+            <label for="age">Age</label>
+            <input id="age" type="text">
+        </div>
+
+        <div class="col-md-4">
+          <label for="food">Favorite food</label>
+          <select id="food">
+            <option value="1">Burger</option>
+            <option value="2">Hotdog</option>
+          </select>
+        </div>
+
+        <div class="col-md-4">
+          <p>Rihanna or Beyonce</p>
+          <select class="form-control" id="idol">
+            <option value="3">Riri</option>
+            <option value="4">Queen Bey(Slay!)</option>
+          </select>
+        </div>
+
+      </div>
+      <button type="submit" class="btn">Tell me who I should date</button>
+      </form>
+
+      <div id="quote">
+        <p>You will date <span id="kard"></span> and become the next Kardashian boo-thang.</p>
+      </div>
+    </div>
+  </body>
+</html>
